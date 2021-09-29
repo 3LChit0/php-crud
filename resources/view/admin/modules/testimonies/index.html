@@ -1,0 +1,24 @@
+<h1>Declaraciones</h1>
+<p>Declaraciones enviadas por los usuarios</p>
+<hr>
+<a href="{{URL}}/admin/testimonies/new">
+    <button type="button" class="btn btn-success">Registrar Declaracion</button>
+</a>
+<hr>
+{{status}}
+<table  class="table table-light table-striped">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th style="width:200ox">Nombre</th>
+            <th>Mensaje</th>
+            <th>Fecha</th>
+            <th style="width:200ox">Comportamiento</th>
+        </tr>
+    </thead>
+    <tbody>
+        {{items}}
+    </tbody>
+</table>
+
+{{pagination}}

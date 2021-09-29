@@ -1,0 +1,23 @@
+<h1>Usuarios</h1>
+<p>Usuarios con acceso a panel</p>
+<hr>
+<a href="{{URL}}/admin/users/new">
+    <button type="button" class="btn btn-success">Registrar usuario</button>
+</a>
+<hr>
+{{status}}
+<table  class="table table-light table-striped">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th style="width:200ox">Nombre</th>
+            <th>E-mail</th>
+            <th style="width:200ox">Comportamiento</th>
+        </tr>
+    </thead>
+    <tbody>
+        {{items}}
+    </tbody>
+</table>
+
+{{pagination}}
